@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alatsi', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('IMG_4490.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0; /* Couleur de fond de secours */
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .app-title {
+    font-family: 'Damion', cursive;
+    font-size: 2.5rem;
+    margin: 20px 0;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    position: relative;
+  }
+  .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #fff; /* Couleur de fond de la carte */
+    border-radius: 20px; /* Bordures arrondies */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    overflow: hidden;
+    background-position: center; /* Centrage de l'image */
+    background-size: cover; /* Redimensionnement de l'image pour couvrir la carte */
+}
+
+  
+.profile-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-info-overlay {
+    background-color: rgba(255, 255, 255, 0.7); /* Couleur de fond semi-transparente */
+    padding: 10px 20px; /* Ajouter un peu de marge intérieure pour l'esthétique */
+    border-radius: 0 0 20px 20px; /* Arrondir uniquement les coins inférieurs de la bande */
+}
+
+  
+  
+  .swipe {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+  }
+  
+
+  .infoText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .diagonal-text {
+    transform: rotate(-35deg);
+    font-size: 20px; /* Taille de police plus petite pour "Bis" */
+    font-weight: bold;
+    color: #f20303;
+    margin-right: -120px;
+  }
+  
+  .normal-text {
+    margin-top: -25px;/* Taille de police pour "Tinder" */
+  }
+
+  .right-swipe {
+    border: 2px solid green; /* Cadre vert pour les swipes vers la droite */
+  }
+  
+  .left-swipe {
+    border: 2px solid red; /* Cadre rouge pour les swipes vers la gauche */
+  }
+  
